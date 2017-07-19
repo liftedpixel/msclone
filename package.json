@@ -1,0 +1,24 @@
+{
+  "name": "minesweeper-clone",
+  "version": "1.0.0",
+  "description": "a minesweeper clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liftedpixel/msclone.git"
+  },
+  "author": "Jessica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liftedpixel/msclone/issues"
+  },
+  "homepage": "https://github.com/liftedpixel/msclone#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
